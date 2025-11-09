@@ -59,12 +59,12 @@ npm run dev
 
 ---
 
-#### Components in own folder
+## Components in own folder
 - See Header: components/Header/Header.jsx, Header.css
 
 ---
 
-### Events, Conditional Rendering
+## Events, Conditional Rendering
 - SEE: https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/39649204#overview
 - TabButton.jsx
 
