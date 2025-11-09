@@ -1,35 +1,37 @@
-# 02-Essentials:
+**02-Essentials**
 
-**Contents**:
-- Properties: see CoreConcept.jsx, with versions with and without destructuring
-- Import img 
-- Components in own folder: see (Header)
-- Events, Conditional rendering
-- State
-- Dynamic Lists
+**Table of Contents**
+- [Usage](#usage)
+- [Key learning points](#key-learning-points)
+  - [Properties](#properties)
+  - [Import img](#import-img)
+  - [Components in own folder](#components-in-own-folder)
+  - [Events, Conditional Rendering](#events-conditional-rendering)
+  - [State](#state)
+  - [Dynamic Lists](#dynamic-lists)
 
 
-**SOURCES**: 
+## References
   - 03 React Essentials:
       - 08-styles-next-to-cmp to 18-outputting-list-data
 
 
-
-# Usage:
+# Usage
+How to run the samples:
 - Regenerate the node_modules folder according to dependencies in package.json: 
 ```bash
 cd 02-props-cmps
 npm install
 ```
 
-- Start dev server
+- Start dev server:
 ```bash
 npm run dev
 ```
 
 ---
 
-# Contents: Key learning points
+# Key learning points
 
 ## Properties 
 - See: 
