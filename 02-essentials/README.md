@@ -8,23 +8,28 @@
 - State
 - Dynamic Lists
 
-- SOURCES: 
-    - 03 React Essentials:
-        - 08-styles-next-to-cmp to 18-outputting-list-data
+
+**SOURCES**: 
+  - 03 React Essentials:
+      - 08-styles-next-to-cmp to 18-outputting-list-data
 
 
-# Regenerate the node_modules folder according to dependencies in package.json 
+
+# Usage:
+- Regenerate the node_modules folder according to dependencies in package.json: 
 ```bash
 cd 02-props-cmps
 npm install
 ```
 
-# Start dev server
+- Start dev server
 ```bash
 npm run dev
 ```
 
-# Key learning points
+---
+
+# Contents: Key learning points
 
 ## Properties 
 - See: 
