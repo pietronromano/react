@@ -7,7 +7,7 @@ PS1='%1~ $ '
   - https://nodejs.org/en/download
   
 - React Developer Tools browser extension: 
-  - Installs the Components and Profile tabs in Developer Tools 
+  - Installs the `Components` and `Profile` tabs in Developer Tools 
   - https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
   
 - VS Code extensions:
@@ -26,7 +26,7 @@ PS1='%1~ $ '
 - Results:
     - Creates full project structure
     - Starts Vite Server
-    - NOTE: `npm install` is needed initially, done automatically
+    - NOTE: `npm install` is NOT needed initially, done automatically
         - BUT: If starting from downloaded code from GitHub, DO need `npm install`
 
 ## Vite commands

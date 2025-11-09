@@ -1,4 +1,34 @@
-# React + Vite
+# 01-FIRST-APP
+
+---
+
+# Create a new react project with Vite
+- Be asked for options:
+`npm create vite@latest'
+
+- React with javascript:
+`npm create vite@latest first-app -- --template react`
+
+- Results:
+    - Creates full project structure
+    - Starts Vite Server
+    - NOTE: `npm install` is NOT needed initially, done automatically
+        - BUT: If starting from downloaded code from GitHub, DO need `npm install`
+
+## Vite commands
+- `h` + `enter` for help
+- `r` + `enter` to restart the server
+- `u` + `enter` to show server url
+- `o` + `enter` to open in browser
+- `c` + `enter` to clear console
+- `q` + `enter` to quit
+
+## Restart vite in dev mode after quitting
+npm run dev
+
+---
+
+# [ORIGINAL README]: React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

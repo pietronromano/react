@@ -1,4 +1,6 @@
-# Essentials:
+# 02-Essentials:
+
+**Contents**:
 - Properties: see CoreConcept.jsx, with versions with and without destructuring
 - Import img 
 - Components in own folder: see (Header)
