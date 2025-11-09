@@ -1,4 +1,5 @@
-# Macos: Change prompt to just show working directory:
+# Macos: 
+- Change prompt to just show working directory:
 PS1='%1~ $ '
 
 # Install tools
