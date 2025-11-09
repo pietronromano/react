@@ -12,11 +12,15 @@
 
 
 # Regenerate the node_modules folder according to dependencies in package.json 
+```bash
 cd 02-props-cmps
 npm install
+```
 
 # Start dev server
+```bash
 npm run dev
+```
 
 # Key learning points
 
@@ -88,8 +92,9 @@ function App() {
 ---
 
 ## Dynamic Lists
--SEE: https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/39649260#overview
+- SEE: https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/39649260#overview
 
+- App.jsx:
 ```javascript
     <section id="core-concepts">
           <h2>Core Concepts</h2>
