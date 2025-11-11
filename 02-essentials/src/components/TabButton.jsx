@@ -1,3 +1,16 @@
+/* Using ...props to collect all additional props and forward them to the button element */
+export default function TabButton({ children, isSelected, ...props }) {
+  console.log('TABBUTTON COMPONENT EXECUTING');
+  return (
+    <li>
+      <button className={isSelected ? 'active' : undefined} {...props}>
+        {children}
+      </button>
+    </li>
+  );
+}
+
+/*
 export default function TabButton({ children, onSelect, isSelected }) {
   console.log('TABBUTTON COMPONENT EXECUTING');
   return (
@@ -8,6 +21,7 @@ export default function TabButton({ children, onSelect, isSelected }) {
     </li>
   );
 }
+*/
 
 /* Use props.children to get the children prop */
 /* In this case, it's just some text: <TabButton>Components</TabButton> */
