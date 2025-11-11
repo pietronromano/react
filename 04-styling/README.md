@@ -39,5 +39,5 @@ npm run dev
     - SEE: https://tailwindcss.com/
     - Install VS Code Extension "Tailwind CSS Intellisens"
 
-- [MY ALTERNATIVE]
-- https://react-bootstrap.netlify.app/
+- [MY ALTERNATIVE] React Bootrap:
+  - https://react-bootstrap.netlify.app/
