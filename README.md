@@ -1,14 +1,8 @@
 # react
-Examples of react projects.
+Uber repo with courses and examples of react projects.
 
-Based on:
-- Course: https://www.udemy.com/course/react-the-complete-guide-incl-redux
-- Source: https://github.com/academind/react-complete-guide-course-resources
-- Docs: react-course-slides.pdf, next-gen-js-summary.pdf
 
-- NOTE: Course completed up to and including Section 7, Debugging.
-
-Other important references:
+## Important references:
 - https://react.dev/ : main react site, excellent documentation
 - https://developer.mozilla.org/en-US/: mdn Web docs for HTML, CSS...
 - https://javascript.info/: Knowing Javascript, including object destructuring, ... Rest Params / Spread Syntax, etc, are vital pre-requisites
