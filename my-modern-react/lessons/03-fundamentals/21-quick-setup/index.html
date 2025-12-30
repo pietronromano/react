@@ -1,0 +1,43 @@
+<!-- 
+    Lesson 21. Quick React Setup & createElement
+    Demo of setting up a React app using CDN links and creating components with React.createElement.
+    For demos purposes, it uses createElement instead of JSX to avoid needing a build step 
+    We wouldn't use this in production, but it's useful for learning purposes.
+    Uses React 18, rather than 19, which we use in our course
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React App</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      function Header() {
+        return React.createElement(
+          "header",
+          null,
+          React.createElement("h2", null, "My App Header")
+        );
+      }
+
+      function App() {
+        return React.createElement(
+          "div",
+          null,
+          React.createElement(Header),
+          React.createElement("h1", null, "Hello, React")
+        );
+      }
+
+      const container = document.getElementById("root");
+      const root = ReactDOM.createRoot(container);
+      root.render(React.createElement(App));
+    </script>
+  </body>
+</html>

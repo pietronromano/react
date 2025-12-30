@@ -1,6 +1,5 @@
-# react
-Uber repo with courses and examples of react projects.
-
+# React
+Uber repo with courses and examples of React projects.
 
 
 ## Important references:
@@ -10,44 +9,57 @@ Uber repo with courses and examples of react projects.
 
 ---
 
-# Setup
+## Environment Setup
+See Brad Traversy's course for detailed setup instructions:
+- https://www.udemy.com/course/modern-react-from-the-beginning/learn/lecture/51256463#overview
 
-## Macos Commandline: 
+### Macos Commandline: 
 - Change prompt to just show working directory:
 PS1='%1~ $ '
 
-## Install tools
-- nodejs: 
-  - https://nodejs.org/en/download
+---
+
+### Install tools
+#### nodejs: 
+- https://nodejs.org/en/download
   
+---
 
-- React Developer Tools browser extension: 
-  - https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-  - Installs the `Components` and `Profile` tabs in Developer Tools:
-    - `Components`: View the component tree, props, hooks and link to source
-    - `Profile`: Allow recording interactions and then analyzing component tree updates   
-
-
-- VS Code extensions:
-  - Markdown Preview Enhanced
-  - Markdown All in One 
+#### React Developer Tools browser extension: 
+- https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+- Installs the `Components` and `Profile` tabs in Developer Tools:
+- `Components`: View the component tree, props, hooks and link to source
+- `Profile`: Allow recording interactions and then analyzing component tree updates   
 
 ---
 
-# Create a new react project with Vite
-- Be asked for options:
+#### VS Code extensions:
+- *Simple React Snippets*:
+  - e.g.: sfc + tab  => creates a functional component boilerplate
+  - See here for full list of shortcuts: https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets
+- *JavaScript (ES6) code snippets*
+- *DotENV* - support for .env files
+- *Postman* - API testing tool, integrated into VS Code
+- *Prettier* - Code formatter
+- *Markdown Preview Enhanced*
+- *Markdown All in One* 
+
+---
+
+## Creating a new react project with Vite
+- Option 1: Be asked for options:
 `npm create vite@latest'
 
-- React with javascript:
+- Option 2: Create directly a React project with JavaScript:
 `npm create vite@latest first-app -- --template react`
 
 - Results:
     - Creates full project structure
     - Starts Vite Server
-    - NOTE: `npm install` is NOT needed initially, done automatically
+    - NOTE: `npm install` is NOT needed initially, dependencies installed automatically
         - BUT: If starting from downloaded code from GitHub, DO need `npm install`
 
-## Vite commands
+### Vite commands
 - `h` + `enter` for help
 - `r` + `enter` to restart the server
 - `u` + `enter` to show server url
@@ -55,22 +67,23 @@ PS1='%1~ $ '
 - `c` + `enter` to clear console
 - `q` + `enter` to quit
 
-## Restart vite in dev mode after quitting
+### Restart vite in dev mode after quitting
 npm run dev
 
 ---
 
-# Debugging
-## Debug in Browser
+## Debugging
+### Debug in Browser
 - Inspect -> Sources -> [Choose the source file version in *Italics*]
 
-## StrictMode
+### StrictMode
 - SEE: https://react.dev/reference/react/StrictMode
 - Wrap `<App>` in StrictMode:
 - Original:
 ```javascript
     ReactDOM.createRoot(entryPoint).render(<App />);
 ```
+
 
 - With StrictMode:
 ```javascript

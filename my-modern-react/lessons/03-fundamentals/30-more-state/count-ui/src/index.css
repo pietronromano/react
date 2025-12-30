@@ -1,0 +1,19 @@
+h1 {
+  font-family: sans-serif;
+}
+
+.rating-container {
+  text-align: center;
+  padding: 5px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-family: sans-serif;
+  font-size: 1em;
+}
