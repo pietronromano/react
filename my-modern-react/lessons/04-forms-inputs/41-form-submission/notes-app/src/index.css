@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 
+  In CSS, you can't directly "reference" one class from another
+  But Tailwind's @apply directive allows you to do just that!
+*/
+body {
+  @apply bg-purple-900;
+}
+
+/* MY ORIGINAL IDEA: 
+ -create my own wrapper classes: use if the same combination of classes are needed multiple times 
+ - Separation of concerns: structure in JSX, styling in CSS
+ - bu
+*/
+.app-container {
+  @apply max-w-lg mx-auto mt-10 p-6 bg-gray-100 rounded-lg shadow-lg;
+}
+
+.app-header {
+  @apply text-2xl font-bold mb-4 text-center;
+}
+
+.note-input {
+  @apply w-full p-2 border rounded-lg;
+}
+

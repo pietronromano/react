@@ -3,7 +3,7 @@
 In React, there are two ways to handle form inputs: controlled and uncontrolled components. In this project, we’ll focus on controlled inputs.
 
 ## Controlled Inputs
-
+ 
 Let's talk about controlled inputs first because that's what we're going to be mostly focused on in this project. A controlled input is a form element (like a text field or select box) whose value is managed by React state.
 
 Instead of the browser keeping track of the value, React does — so every change updates state, and that state controls what shows in the input.

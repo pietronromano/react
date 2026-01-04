@@ -1,7 +1,7 @@
 # App & Tailwind Setup
 
 In this section, I want to work more with the React fundamentals that we looked at in the last section. I also want to look at forms and input. We're going to do this by building a notes app. We'll also be using Tailwind CSS to style our app. In this lesson, we will get setup with Tailwind CSS and create our app.
-
+ 
 ## Create React App
 
 Let's start by creating a new React app. We can do this by running the following command:

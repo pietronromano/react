@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* 
+  In CSS, you can't directly "reference" one class from another
+  But Tailwind's @apply directive allows you to do just that!
+*/
+body {
+  @apply bg-purple-900;
+}
+
+
+
