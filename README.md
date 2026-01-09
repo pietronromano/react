@@ -35,7 +35,7 @@ PS1='%1~ $ '
 
 ---
 
-#### Vs Code: Run selected text in Active Terminal
+#### VS Code: Run selected text in Active Terminal
 To Configure:
 - CTRL|CMD+SHIFT+P
   - Type "Preferences: Run Selected Text in Active Terminal"
@@ -50,7 +50,7 @@ To Configure:
   - See here for full list of shortcuts: https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets
 - *JavaScript (ES6) code snippets*
 - *DotENV* - support for .env files
-- *Postman* - API testing tool, integrated into VS Code
+- *Postman* - the famous API testing tool, integrated into VS Code
 - *Prettier* - Code formatter
   - OPTIONAL! I found it inteferred with my comments - disabled it
   - Configure Prettier to format on save: Go to VS Code settings and search for:
