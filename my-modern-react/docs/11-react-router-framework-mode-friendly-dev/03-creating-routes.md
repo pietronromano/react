@@ -44,7 +44,7 @@ const AboutPage = () => {
   return (
     <section>
       <h1 className='text-3xl font-bold text-white mb-2'>Hey, I'm Brad 👋</h1>
-    </>
+    </section>
   );
 };
 
@@ -81,7 +81,7 @@ const HomePage = () => {
   return (
     <section>
       <h1>Welcome</h1>
-    </>
+    </section>
   );
 };
 
@@ -156,7 +156,7 @@ const BlogPage = () => {
   return (
     <section>
       <h2 className='text-3xl font-bold mb-8 text-white'>📝 Blog</h2>
-    </>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ As you can see from the code in the image, we define the loader above the functi
 
 In addition to server loaders, we can also use client loaders. You can use these instead of `useEffect` to load data on the client. So even if you are not using SSR, you can use client loaders. So with React Router v7, there are not many cases where you would need to use `useEffect` to load data. You can use loaders instead. You can also still use client loaders in SSR mode.
 
-<img src="../images/laoders-2.png" alt="Loaders" width="600"/>
+<img src="../images/loaders-2.png" alt="Loaders" width="600"/>
 
 You can see with client loaders, they work in a similar way. The data is passed into the component as props. The difference is that the data is loaded on the client instead of the server. This means that the data is loaded after the component is rendered. We can also define a function called `hydrateFallback`, which will be rendered while the client loader is running. So you can show a spinner or a loading message while the data is loading. This is similar to how we would use `useEffect`.
 

@@ -6,8 +6,12 @@ Uber repo with courses and examples of React projects.
 - https://react.dev/ : main react site, excellent documentation
   - https://react.dev/reference/rules: Fundamental Rules of React
   - https://react.dev/learn/reacting-to-input-with-state: Reacting to input with state
+- https://reactrouter.com/home: React Router documentation
 - https://developer.mozilla.org/en-US/: mdn Web docs for HTML, CSS...
 - https://javascript.info/: Knowing Javascript, including object destructuring, ... Rest Params / Spread Syntax, etc, are vital pre-requisites
+- https://www.typescriptlang.org/: TypeScript documentation and playground
+  - https://www.devsheets.io/sheets/typescript: Brad's TypeScript Cheatsheet
+- https://jsonplaceholder.typicode.com: Fake Online REST API for Testing and Prototyping
 
 ---
 

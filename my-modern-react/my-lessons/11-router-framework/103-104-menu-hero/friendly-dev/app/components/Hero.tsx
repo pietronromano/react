@@ -1,6 +1,12 @@
 import { Link } from 'react-router';
 
-const Hero = ({
+// be more explicit about the props, create an interface for them
+interface HeroProps {
+  name?: string;
+  text?: string;
+}
+
+const Hero: React.FC<HeroProps> = ({
   name = '[NAME]',
   text = ' I build friendly web experiences and help others become confident, modern developers.',
 }) => {
