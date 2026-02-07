@@ -4,7 +4,7 @@ Remaining lessons to complete the Rating UI project
 ## References:
 ### Udemy Course Lessons:
 - https://www.udemy.com/course/modern-react-from-the-beginning/learn/lecture/51256855#overview:
-  - Lesson 34. Submit Rating* 
+  - Lesson 34. Submit Rating*
   - Lesson 35. Modal Component Composition
   - Lesson 36. Passing Data As Children
     
